@@ -1,7 +1,7 @@
-section.left {
+.left {
     text-align: left;
 }
-section.right {
+.right {
     text-align: right;
 }
 h1 {
@@ -21,4 +21,19 @@ footer {
     color: white;
     height: 100px;
     background-color: #001D24;
+}
+@media (max-width: 1024px) {
+    .left {
+        background-color: green;
+    }
+}
+@media (max-width: 768px) {
+    .left {
+        background-color: purple;
+    }
+}
+@media (max-width: 550px) {
+    .left {
+      background-color: red;
+    }
 }
