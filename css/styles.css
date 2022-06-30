@@ -1,0 +1,24 @@
+section.left {
+    text-align: left;
+}
+section.right {
+    text-align: right;
+}
+h1 {
+    line-height: 300px;
+    color: white;
+    text-align: center;
+    height: 300px;
+    background: linear-gradient(#00D4FE, #011E25);
+    margin: auto;
+}
+h2 {
+    color: #0C6D78;
+}
+footer {
+    line-height: 100px;
+    text-align: center;
+    color: white;
+    height: 100px;
+    background-color: #001D24;
+}
